@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIDAR SPORTS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101522;
+      color: white;
+    }
+
+    header {
+      background: #071d35;
+      padding: 22px;
+      text-align: center;
+      border-bottom: 3px solid #16c784;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #16c784;
+      font-size: 30px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 15px;
+      background: #172338;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 55px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #123b55, #101522);
+    }
+
+    .hero h2 {
+      font-size: 32px;
+    }
+
+    .hero p {
+      color: #c5d1dc;
+    }
+
+    .section {
+      padding: 25px 18px;
+    }
+
+    .section h2 {
+      color: #16c784;
+    }
+
+    .card {
+      background: #202d42;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .teams {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .score {
+      color: #16c784;
+      font-size: 25px;
+      margin: 12px;
+    }
+
+    footer {
+      background: #071d35;
+      padding: 25px;
+      text-align: center;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>⚽ KIDAR SPORTS</h1>
+    <p>Le monde du sport en direct</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#resultats">Résultats</a>
+    <a href="#actualites">Actualités</a>
+  </nav>
+
+  <section class="hero" id="accueil">
+    <h2>Bienvenue sur KIDAR SPORTS</h2>
+    <p>Toutes les actualités du sport mondial au même endroit.</p>
+  </section>
+
+  <section class="section" id="resultats">
+    <h2>🏆 Matchs et résultats</h2>
+
+    <div class="card">
+      <div class="teams">Real Madrid - Barcelona</div>
+      <div class="score">2 - 1</div>
+      <p>Exemple de résultat</p>
+    </div>
+
+    <div class="card">
+      <div class="teams">Manchester City - Arsenal</div>
+      <div class="score">1 - 1</div>
+      <p>Exemple de résultat</p>
+    </div>
+  </section>
+
+  <section class="section" id="actualites">
+    <h2>📰 Actualités sportives</h2>
+
+    <div class="card">
+      <h3>Football mondial</h3>
+      <p>Retrouvez les dernières nouvelles du football.</p>
+    </div>
+
+    <div class="card">
+      <h3>Basketball</h3>
+      <p>Suivez les grandes compétitions de basketball.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 KIDAR SPORTS</p>
+    <p>Tous les droits réservés.</p>
+  </footer>
+
+</body>
+</html>
